@@ -3,11 +3,10 @@ Tool that generates documents from templates that integrate some specified data
 [Render][https://f23wb40jammula.onrender.com]
 class Jewelry {
     String type;
-    String name;
-    String country;
-  constructor(type, name, price) {
+    String material;
+  constructor(type, material, price) {
     this.type = type;         
-    this.name = name;      
+    this.material = material;      
     this.price = price;  
   }
 
